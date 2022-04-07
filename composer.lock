@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "68c206fa153cedf7977cfaf21e664d82",
+    "content-hash": "98f1fd34a160c0502442ab4c18f1a386",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -19186,6 +19186,51 @@
                 }
             ],
             "time": "2022-02-11T10:27:51+00:00"
+        },
+        {
+            "name": "reessolutions/db-override",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sental/db-override.git",
+                "reference": "0b7019862af31389404e44123b285b9eae8542f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sental/db-override/zipball/0b7019862af31389404e44123b285b9eae8542f4",
+                "reference": "0b7019862af31389404e44123b285b9eae8542f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~7.2.0 || ~7.3.0 || ~7.4.0 || ~8.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ReesSolutions\\DBOverride\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "gpl-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Rees",
+                    "email": "mark@rees.solutions",
+                    "homepage": "http://www.rees.solutions/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A module to enable experimental mariadb 10.5 & 10.6 support before offical support is available.",
+            "support": {
+                "issues": "https://github.com/Sental/db-override/issues",
+                "source": "https://github.com/Sental/db-override/tree/v1.0.1"
+            },
+            "time": "2022-03-28T18:01:22+00:00"
         },
         {
             "name": "seld/jsonlint",
