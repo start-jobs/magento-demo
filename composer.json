@@ -75,12 +75,7 @@
         "0": {
             "type": "composer",
             "url": "https://repo.magento.com/"
-        },
-        "onthemap": {
-            "type": "path",
-            "url": "../magento-accessibly"
         }
-
     },
     "extra": {
         "magento-force": "override"
