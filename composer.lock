@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "68c206fa153cedf7977cfaf21e664d82",
+    "content-hash": "34fb55a37b2d097e76d75784e7a68a8c",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -17848,24 +17848,13 @@
         },
         {
             "name": "onthemap/accessibly",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "dist": {
                 "type": "path",
                 "url": "../magento-accessibly",
-                "reference": "b4a05af475b69f382f3612630cabb6186773a051"
+                "reference": "a68a905e09ad6af54df2338f5fd286796b69808a"
             },
             "require": {
-                "magento/framework": ">=101 <104",
-                "magento/module-backend": ">=100 <103",
-                "magento/module-checkout": "100.*",
-                "magento/module-config": ">=100 <103",
-                "magento/module-customer": ">=100 <104",
-                "magento/module-directory": "100.*",
-                "magento/module-quote": ">=100 <103",
-                "magento/module-sales": ">=100 <104",
-                "magento/module-shipping": "100.*",
-                "magento/module-store": ">=100 <102",
-                "magento/module-ui": ">=100 <102",
                 "php": "^7.1"
             },
             "type": "magento2-module",
@@ -28156,9 +28145,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "onthemap/accessibly": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

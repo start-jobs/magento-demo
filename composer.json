@@ -16,7 +16,7 @@
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "~1.1",
         "magento/product-community-edition": "2.4.3-p1",
-        "onthemap/accessibly": "@dev",
+        "onthemap/accessibly": "^1.0",
         "spatie/ray": "^1.34"
     },
     "autoload": {
@@ -75,12 +75,7 @@
         "0": {
             "type": "composer",
             "url": "https://repo.magento.com/"
-        },
-        "onthemap": {
-            "type": "path",
-            "url": "../magento-accessibly"
         }
-
     },
     "extra": {
         "magento-force": "override"
